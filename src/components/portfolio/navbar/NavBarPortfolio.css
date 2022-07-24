@@ -1,0 +1,35 @@
+.navbar {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  justify-content: flex-end;
+  z-index: 200;
+}
+
+.nav_ul {
+  display: flex;
+  margin-top: 3vh;
+  list-style: none;
+  margin-right: 3vw;
+
+}
+
+.nav_li {
+  margin-right: 2vh;
+  cursor: pointer;
+  background-color: black;
+  padding: 3px;
+  border: 2px #fff solid;
+  transition: 1s;
+}
+
+.nav_li:hover {
+  border: 2px #fff solid;
+  color: #000;
+  background-color: #fff;
+  transition: 1s;
+  transform: scale(1.1);
+}

@@ -4,7 +4,6 @@ import { Parpadea } from "../../helpers/Parpadea";
 /* import LogoDRogerZ from '../../images/1200DevRogerZen_Logon.png' */
 
 const LetreroContainer = styled.div`
-  grid-area: letrero;
   width: 100%;
   height: 100vh;
   display: flex;

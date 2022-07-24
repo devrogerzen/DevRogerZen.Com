@@ -1,0 +1,29 @@
+.social-nav_ul {
+  position: absolute;
+  z-index: 100;
+  display: flex;
+  list-style: none;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 40px;
+  float: right;
+  margin: 0;
+  padding: 0;
+  width: 97%;
+  height: 98vh;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.social-nav_li {
+  margin-left: 3vh;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.social-nav_li:hover {
+transition: 1s;
+transform: scale(0.7);
+
+}

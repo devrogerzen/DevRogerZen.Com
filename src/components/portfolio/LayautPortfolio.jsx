@@ -2,25 +2,25 @@ import React from "react";
 import styled from "styled-components";
 import BgMain from "./BgMain";
 import Letrero from "./Letrero";
-import NavBarPortfolio from "./NavBarPortfolio";
+import NavBarPortfolio from "../portfolio/navbar/NavBarPortfolio";
+import Social_Bar from "./social_bar/Social_Bar";
 
 const LayautPortfolioMain = styled.main`
   width: 100%;
   height: auto;
   display: grid;
-  grid-template-areas:
-    logon navbar navbar navbar
-    letrero letrero aside aside
-    socialnet footer footer footer;
 `;
 
 const LayautPorfolio = () => {
   return (
-    <LayautPortfolioMain>
-      <BgMain />
-      <NavBarPortfolio />
-      <Letrero />
-    </LayautPortfolioMain>
+    <>
+      <LayautPortfolioMain>
+        <BgMain />
+        <NavBarPortfolio />
+        <Letrero />
+        <Social_Bar />
+      </LayautPortfolioMain>
+    </>
   );
 };
 
